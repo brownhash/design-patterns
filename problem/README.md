@@ -25,3 +25,20 @@ And later use these interfaces to extend more behaviors
 by not disturbing the constant behaviors like the `swim()` method.
 
 Follow the [duck](./duck) package.
+
+### Learnings
+
+> take the parts that vary and encapsulate them, 
+> so that later you can alter or extend the parts that vary 
+> without affecting those that don't.
+
+> program to an interface, and not to an implementation.
+> ```java
+> // Programming to an implementation
+> Dog d = new Dog();
+> d.bark();
+> 
+> // Programming to an interface/supertype
+> Animal animal = new Dog();
+> animal.makeSound();
+> ```
