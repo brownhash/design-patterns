@@ -4,5 +4,9 @@ public class DuckSimulator {
         mallard.display();
         mallard.performQuack();
         mallard.performFly();
+
+        System.out.println("Upgrading mallard...");
+        mallard.setFlyBehavior(new FlyWithRocket());
+        mallard.performFly();
     }
 }
