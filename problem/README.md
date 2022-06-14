@@ -24,7 +24,7 @@ You use interface to define the behaviors that are expected to change.
 And later use these interfaces to extend more behaviors 
 by not disturbing the constant behaviors like the `swim()` method.
 
-Follow the [duck](./duck) package.
+Follow the [duck](./duck#duck) package.
 
 ### Learnings
 
